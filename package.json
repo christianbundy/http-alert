@@ -9,9 +9,13 @@
   "dependencies": {
     "open": "^7.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/node": "^13.7.4",
+    "common-good": "^1.1.20"
+  },
   "scripts": {
-    "test": "node test"
+    "test": "node test && common-good",
+    "fix": "common-good fix"
   },
   "repository": {
     "type": "git",
