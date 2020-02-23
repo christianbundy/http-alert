@@ -1,0 +1,30 @@
+{
+  "name": "http-alert",
+  "version": "1.0.0",
+  "description": "alert() for node.js",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "open": "^7.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christianbundy/http-alert.git"
+  },
+  "keywords": [
+    "http",
+    "alert"
+  ],
+  "author": "Christian Bundy <christianbundy@fraction.io>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/christianbundy/http-alert/issues"
+  },
+  "homepage": "https://github.com/christianbundy/http-alert#readme"
+}
