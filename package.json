@@ -2,9 +2,9 @@
   "name": "http-alert",
   "version": "1.0.0",
   "description": "alert() for node.js",
-  "main": "index.js",
+  "main": "src/index.js",
   "directories": {
-    "example": "example"
+    "test": "test"
   },
   "dependencies": {
     "open": "^7.0.2"
@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/christianbundy/http-alert/issues"
   },
-  "homepage": "https://github.com/christianbundy/http-alert#readme"
+  "homepage": "https://github.com/christianbundy/http-alert#readme",
+  "bin": {
+    "http-alert": "bin/index.js"
+  }
 }
